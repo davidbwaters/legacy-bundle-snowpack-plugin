@@ -1,0 +1,18 @@
+{
+  "name": "legacy-bundle-snowpack-plugin",
+  "version": "1.0.0",
+  "description": "Outputs a transpiled legacy bundle for differential serving with nomodule.",
+  "main": "index.js",
+  "repository": "http://github.com/davidbwaters/snowpack-plugin-multibuild",
+  "author": "David B. Waters",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "core-js": "3",
+    "rollup": "^2.25.0"
+  }
+}
