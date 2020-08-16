@@ -7,7 +7,14 @@ It transpiles code and adds basic Pollyfills with Babel and uses Rollup to build
 ---
 
 ## Setup
-Setup is super simple.  Add a script file for your legacy code and add `imports` for your entry point and any non-Babel pollyfills you want to add:
+Setup is super simple. First install:
+`npm install --dev legacy-bundle-snowpack-plugin`
+or
+`yarn add --dev legacy-bundle-snowpack-plugin`
+
+---
+
+Add a script file for your legacy code and add `imports` for your entry point and any non-Babel pollyfills you want to add:
 
 `src/scripts/legacy.js`
 ```
@@ -50,3 +57,7 @@ Finally, just add it to your `index.html` under your main script.  Make sure to 
   </body>
 </html>
 ```
+
+Now run build and the output of legacy.js should be an old-school bundle.  That's it.
+
+---

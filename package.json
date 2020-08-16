@@ -1,6 +1,6 @@
 {
   "name": "legacy-bundle-snowpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Outputs a transpiled legacy bundle for differential serving with nomodule.",
   "main": "index.js",
   "repository": "http://github.com/davidbwaters/snowpack-plugin-multibuild",

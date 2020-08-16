@@ -2,7 +2,6 @@ const babel = require('@babel/core')
 const rollup = require('rollup')
 const path = require('path')
 const fs = require('fs')
-const virtual = require('@rollup/plugin-virtual')
 const commonjs = require('@rollup/plugin-commonjs')
 
 const babelOptions = {
@@ -18,7 +17,7 @@ const babelOptions = {
         modules: false,
         spec: true,
         forceAllTransforms: true,
-        useBuiltIns: 'usage',
+        useBuiltIns: 'entry',
         corejs: {
           version: '3',
         },
