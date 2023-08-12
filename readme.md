@@ -1,3 +1,7 @@
+...
+  plugins: [
+    'legacy-bundle-snowpack-plugin',
+...
 
 # Legacy Bundle Snowpack Plugin
 This is a Snowpack plugin that provides a dead simple way to add a legacy bundle and implement differential serving for browsers that don't support modules.  
